@@ -15,5 +15,4 @@ Setup:
 	Using a browser, open "https://hostname/aurora/?display=doc" to read further instructions on how to use this software.
 	To judge sumissions, run the script "aurora.py" on (preferably) a virtual machine that satisfies the server configuration specified in the FAQ.
 
-Created by
-	Kaustubh Karkare
+Based on OJ By Kaustubh Karkare
