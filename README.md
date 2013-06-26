@@ -3,15 +3,17 @@ Aurora Online Judge
 
 Setup:
 ------
-* Copy all files into a directory named `aurora` inside your Apache's Document Root.
-* Open (create, if required) the file `<path-to-document-root>/aurora/sys/system_config.php` and set the variables (with appropriate values) as shown below:
-		`<?php
-		$mysql_hostname = "127.0.0.1";
-		$mysql_username = "username";
-		$mysql_password = "password";
-		$mysql_database = "aurora";
-		$admin_teamname = "admin";
-		$admin_password = "password";
+* Copy all files into a directory named `aurora` inside your Apache's Document Root.  
+* Open (create, if required) the file  
+`<path-to-document-root>/aurora/sys/system_config.php`  
+and set the variables (with appropriate values) as shown below:  
+		`<?php  
+		$mysql_hostname = "127.0.0.1";  
+		$mysql_username = "username";  
+		$mysql_password = "password";  
+		$mysql_database = "aurora";  
+		$admin_teamname = "admin";  
+		$admin_password = "password";  
 		?>`
 * Create an empty subdirectory called `temp` in the `sys` directory (using `mkdir sys/temp` ).
 * Using a browser, open `https://hostname/aurora/?display=doc` to read further instructions on how to use this software.
